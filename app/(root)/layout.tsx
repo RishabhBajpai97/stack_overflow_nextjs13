@@ -3,6 +3,7 @@ import RightSidebar from "@/components/shared/RightSideBar";
 import Navbar from "@/components/shared/navbar/Navbar";
 import { Toaster } from "@/components/ui/toaster";
 import React from "react";
+export const runtime = "nodejs"; // 'nodejs' (default) | 'edge'
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
